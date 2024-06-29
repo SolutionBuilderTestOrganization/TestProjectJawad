@@ -1,0 +1,36 @@
+extract:
+  WebLink:
+    fields:
+    - PageOrSobjectType
+    - Name
+    - IsProtected
+    - Url
+    - EncodingKey
+    - LinkType
+    - OpenType
+    - Height
+    - Width
+    - ShowsLocation
+    - HasScrollbars
+    - HasToolbar
+    - HasMenubar
+    - ShowsStatus
+    - IsResizable
+    - Position
+    - MasterLabel
+    - Description
+    - DisplayType
+    - RequireRowSelection
+    - ScontrolId
+  Pricebook2:
+    fields:
+    - Name
+    - IsActive
+    - Description
+  PricebookEntry:
+    fields:
+    - UnitPrice
+    - IsActive
+    - UseStandardPrice
+    - Pricebook2Id
+    - Product2Id
